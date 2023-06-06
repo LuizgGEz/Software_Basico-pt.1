@@ -1,0 +1,20 @@
+Algoritmo "ex1"
+Var
+   nome:caracter;
+   quantidade:inteiro;
+   total:real;
+Inicio
+   leia(nome,quantidade)
+   se(quantidade<=250)entao
+      total<-quantidade*1;
+   senao
+      se(quantidade<=500)entao
+         total<-quantidade*1.5;
+      senao
+         se(quantidade>500)entao
+            total<-quantidade*2;
+         fimse;
+      fimse;
+   fimse;
+   escreva(nome,total)
+Fimalgoritmo
